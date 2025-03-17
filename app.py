@@ -15,3 +15,9 @@ st.subheader('DSMP')
 st.subheader('DSAP')
 st.subheader('DSEP')
 st.subheader('DSA')
+
+st.sidebar.title('Menu')
+st.sidebar.markdown("""
+- home
+- about
+- contact""")
