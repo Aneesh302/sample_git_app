@@ -9,3 +9,8 @@ with col1:
 
 with col12:
     st.header('CampusX is an Online platform')
+
+st.header('Courses')
+st.subheader('DSMP')
+st.subheader('DSAP')
+st.subheader('DSEP')
