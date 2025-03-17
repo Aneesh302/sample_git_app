@@ -20,4 +20,6 @@ st.sidebar.title('Menu')
 st.sidebar.markdown("""
 - home
 - about
-- contact""")
+- contact
+- career
+- login""")
