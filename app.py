@@ -24,5 +24,8 @@ st.sidebar.markdown("""
 - career
 - login""")
 
-st.sidebar.selectbox('Select one',['teacher','student'])
-st.sidebar.button('Select')
+option=st.sidebar.selectbox('Select one',['teacher','student'])
+btn=st.sidebar.button('Select')
+
+if btn:
+    st.title("Hello "+option)
